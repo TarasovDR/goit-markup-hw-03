@@ -40,6 +40,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+}
+
 .section-title-hidden {
   position: absolute;
   width: 1px;
@@ -60,17 +64,12 @@ body {
   margin: 0 auto;
 }
 
-.header .container {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
 .header-portfolio {
-  /* width: 100%; */
   border-bottom: 1px solid #ececec;
 }
 
 .logo {
+  margin-right: 93px;
   color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -80,7 +79,29 @@ body {
 
 .site-nav,
 .auth-nav {
+  display: flex;
   letter-spacing: 0.02em;
+}
+
+.site-nav .item:not(:last-child),
+.auth-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .link {
+  display: block;
+  padding: 32px 0;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section {
@@ -145,9 +166,10 @@ footer {
 .btn {
   display: inline-block;
   min-width: 73px;
-  border: 1px solid transparent;
-  border-radius: 4px;
   padding: 10px 32px;
+
+  border: none;
+  border-radius: 4px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
