@@ -21,8 +21,10 @@ h5,
 h6,
 ul,
 ol,
+li,
 p,
 img,
+a,
 button {
   margin: 0;
   padding: 0;
@@ -59,8 +61,13 @@ body {
 }
 
 .header .container {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header-portfolio {
+  /* width: 100%; */
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -77,8 +84,7 @@ body {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 .section.no-bottom-padding {
@@ -148,6 +154,10 @@ footer {
   line-height: 1.875;
   letter-spacing: 0.06em;
   text-align: center;
+}
+
+.btn-list {
+  margin-bottom: 50px;
 }
 
 .btn-filter {
@@ -225,6 +235,7 @@ address {
 }
 
 .project-title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -235,6 +246,14 @@ address {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
+}
+
+.card {
+  border: 1px solid #eeeeee;
+}
+
+.card-content {
+  padding: 20px 24px;
 }
 
 .auth-nav .footer-contact {

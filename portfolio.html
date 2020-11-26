@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="container header-portfolio">
         <nav>
           <a href="./index.html" lang="en" class="logo">
             <span class="logo-web">Web</span>Studio</a
@@ -33,14 +33,16 @@
         </nav>
 
         <ul class="auth-nav list">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
 
     <main>
-      <section>
+      <section class="section">
         <div class="container">
           <ul class="list btn-list">
             <li>
@@ -71,8 +73,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-title">Технокряк</h2>
-                <p class="project-subtitle">Веб-сайт</p>
+                <div class="card-content">
+                  <h2 class="project-title">Технокряк</h2>
+                  <p class="project-subtitle">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="card">
@@ -83,8 +87,12 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
-                <p class="project-subtitle">Дизайн</p>
+                <div class="card-content">
+                  <h2 class="project-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="project-subtitle">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="card">
@@ -95,8 +103,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-title">Ресторан Seafood</h2>
-                <p class="project-subtitle">Приложение</p>
+                <div class="card-content">
+                  <h2 class="project-title">Ресторан Seafood</h2>
+                  <p class="project-subtitle">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="card">
@@ -107,8 +117,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-title">Проект Prime</h2>
-                <p class="project-subtitle">Маркетинг</p>
+                <div class="card-content">
+                  <h2 class="project-title">Проект Prime</h2>
+                  <p class="project-subtitle">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="card">
@@ -119,8 +131,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-title">Проект Boxes</h2>
-                <p class="project-subtitle">Приложение</p>
+                <div class="card-content">
+                  <h2 class="project-title">Проект Boxes</h2>
+                  <p class="project-subtitle">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="card">
@@ -131,8 +145,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-title">Inspiration has no Borders</h2>
-                <p class="project-subtitle">Веб-сайт</p>
+                <div class="card-content">
+                  <h2 class="project-title">Inspiration has no Borders</h2>
+                  <p class="project-subtitle">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="card">
@@ -143,8 +159,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-title">Издание Limited Edition</h2>
-                <p class="project-subtitle">Дизайн</p>
+                <div class="card-content">
+                  <h2 class="project-title">Издание Limited Edition</h2>
+                  <p class="project-subtitle">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="card">
@@ -155,8 +173,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-title">Проект LAB</h2>
-                <p class="project-subtitle">Маркетинг</p>
+                <div class="card-content">
+                  <h2 class="project-title">Проект LAB</h2>
+                  <p class="project-subtitle">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="card">
@@ -167,8 +187,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-title">Growing Business</h2>
-                <p class="project-subtitle">Приложение</p>
+                <div class="card-content">
+                  <h2 class="project-title">Growing Business</h2>
+                  <p class="project-subtitle">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -177,32 +199,34 @@
     </main>
 
     <footer class="footer">
-      <a href="./index.html" class="logo logo-footer"
-        ><span class="logo-web">Web</span>Studio</a
-      >
+      <div class="container">
+        <a href="./index.html" class="logo logo-footer"
+          ><span class="logo-web">Web</span>Studio</a
+        >
 
-      <address>
-        <ul class="auth-nav list">
-          <li>
-            <a
-              href="https://goo.gl/maps/oSqtVdrNRLuUKtEEA"
-              class="auth-nav address"
-            >
-              г. Киев, пр-т Леси Украинки, 26
-            </a>
-          </li>
-          <li>
-            <a href="mailto:info@example.com" class="footer-contact"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380991111111" class="footer-contact"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address>
+          <ul class="auth-nav list">
+            <li>
+              <a
+                href="https://goo.gl/maps/oSqtVdrNRLuUKtEEA"
+                class="auth-nav address"
+              >
+                г. Киев, пр-т Леси Украинки, 26
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@example.com" class="footer-contact"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380991111111" class="footer-contact"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
