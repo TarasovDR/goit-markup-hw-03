@@ -194,7 +194,10 @@ footer {
   text-align: center;
 }
 
-.btn-list {
+.btn-filter-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 50px;
 }
 
@@ -204,6 +207,10 @@ footer {
   font-weight: 500;
   line-height: 1.625;
   letter-spacing: 0.03em;
+}
+
+.btn-filter-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .btn:hover,
@@ -305,8 +312,17 @@ address {
   line-height: 1.875;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
 .card {
-  border: 1px solid #eeeeee;
+  margin-top: 30px;
+  margin-left: 30px;
+  /* flex-basis: calc(100% / 3 - 30px); */
+  outline: 1px solid #eeeeee;
 }
 
 .card-content {
