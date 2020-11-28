@@ -112,10 +112,11 @@ img {
 }
 
 .section {
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.section.no-bottom-padding {
+.section:nth-child(2) {
   padding-bottom: 0;
 }
 
@@ -148,12 +149,12 @@ footer {
   background-color: var(--secondary-bg-color);
 }
 
-.hero {
+.section.hero {
   min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  padding: 200px 0;
   text-align: center;
 }
 
@@ -238,7 +239,7 @@ footer {
 }
 
 .features-list-item {
-  max-width: 270px;
+  min-width: 270px;
 }
 
 .features-list-item:not(:last-child) {
@@ -272,6 +273,10 @@ footer {
   margin-right: 30px;
 }
 
+.teammate-wrapper {
+  padding: 30px;
+}
+
 .teammate-name {
   margin-bottom: 10px;
 }
@@ -288,15 +293,27 @@ footer {
   font-weight: 400;
 }
 
-.teammate-wrapper {
-  padding: 30px;
-}
-
 address {
   font-style: inherit;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.card {
+  margin-top: 30px;
+  margin-left: 30px;
+  outline: 1px solid #eeeeee;
+}
+
+.card-content {
+  padding: 20px 24px;
 }
 
 .project-title {
@@ -311,23 +328,6 @@ address {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
-.card {
-  margin-top: 30px;
-  margin-left: 30px;
-  /* flex-basis: calc(100% / 3 - 30px); */
-  outline: 1px solid #eeeeee;
-}
-
-.card-content {
-  padding: 20px 24px;
 }
 
 .auth-nav-footer .footer-contact {
