@@ -58,14 +58,24 @@ img {
   overflow: hidden;
 }
 
+.list {
+  list-style: none;
+}
 .container {
   width: 1200px;
-  padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
-.header-portfolio {
+.header {
   border-bottom: 1px solid #ececec;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -90,15 +100,9 @@ img {
 
 .site-nav .link {
   display: block;
-  padding: 32px 0;
 }
 
 .nav-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.main-nav {
   display: flex;
   align-items: center;
 }
@@ -113,10 +117,6 @@ img {
 
 .section.no-bottom-padding {
   padding-bottom: 0;
-}
-
-.list {
-  list-style: none;
 }
 
 a,
@@ -182,6 +182,7 @@ footer {
 
 .btn {
   display: inline-block;
+  min-width: 73px;
   padding: 10px 32px;
   border: none;
   border-radius: 4px;
