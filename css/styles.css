@@ -69,8 +69,6 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .header .container {
@@ -79,6 +77,8 @@ img {
 }
 
 .logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-right: 93px;
   color: #000000;
   font-family: "Raleway", sans-serif;
@@ -100,6 +100,13 @@ img {
 
 .site-nav .link {
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.auth-nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-wrapper {
