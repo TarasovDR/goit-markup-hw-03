@@ -144,18 +144,15 @@ a,
   color: var(--secondary-text-color);
 }
 
+.section.hero {
+  min-height: 600px;
+  padding: 200px 0;
+  text-align: center;
+}
+
 .hero,
 footer {
   background-color: var(--secondary-bg-color);
-}
-
-.section.hero {
-  min-height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 200px 0;
-  text-align: center;
 }
 
 .hero-title,
