@@ -42,8 +42,8 @@ body {
 
 img {
   display: block;
-  /* width: 100%; */
-  /* height: auto; */
+  width: 100%;
+  height: auto;
 }
 
 .section-title-hidden {
@@ -63,6 +63,7 @@ img {
 .list {
   list-style: none;
 }
+
 .container {
   width: 1200px;
   margin: 0 auto;
